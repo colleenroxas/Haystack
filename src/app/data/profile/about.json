@@ -21,15 +21,14 @@
                 "+9 555 5255"
             ],
             "websites": [
-                "withinpixels.com"
+                "bobsburgers.com"
             ],
             "emails": [
-                "mail@withinpixels.com",
-                "mail@creapond.com"
+                "sean@burger.com",
+                "august@burger.com"
             ]
         },
-        "groups": [
-            {
+        "groups": [{
                 "logo": "assets/images/logos/android.png",
                 "name": "Wholefoods",
                 "category": "grocery",
@@ -46,36 +45,6 @@
                 "name": "Union Market",
                 "category": "market",
                 "units": "526.142"
-            }
-        ],
-        "friends": [
-            {
-                "name": "Garry Newman",
-                "avatar": "assets/images/avatars/garry.jpg"
-            },
-            {
-                "name": "Carl Henderson",
-                "avatar": "assets/images/avatars/carl.jpg"
-            },
-            {
-                "name": "Jane Dean",
-                "avatar": "assets/images/avatars/jane.jpg"
-            },
-            {
-                "name": "Garry Arnold",
-                "avatar": "assets/images/avatars/garry.jpg"
-            },
-            {
-                "name": "Vincent Munoz",
-                "avatar": "assets/images/avatars/vincent.jpg"
-            },
-            {
-                "name": "Alice Freeman",
-                "avatar": "assets/images/avatars/alice.jpg"
-            },
-            {
-                "name": "Andrew Green",
-                "avatar": "assets/images/avatars/andrew.jpg"
             }
         ]
     }

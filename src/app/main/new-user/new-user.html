@@ -1,7 +1,12 @@
 <div id="forms" class="page-layout simple fullwidth doc-page" layout="column">
+
     <!-- VERTICAL STEPPER -->
     <div class="content" layout="column">
-        <form name="verticalStepper" ms-vertical-stepper ng-submit="vm.submitVerticalStepper()" ng-model="vm.verticalStepper" novalidate>
+        <div class="md-title mt-32">Welcome to Haystack! </div>
+        <div class="pb-16">
+            click 'Personal Information' below to get started!
+        </div>
+        <form name="verticalStepper" ms-vertical-stepper ng-submit="vm.submitVerticalStepper()" ng-model="vm.verticalStepper" validate>
             <ms-vertical-stepper-step ng-form="verticalStep1" step="1" step-title="'Personal Information'">
                 <div ng-include="'app/main/new-user/vertical/step-1.html'"></div>
             </ms-vertical-stepper-step>

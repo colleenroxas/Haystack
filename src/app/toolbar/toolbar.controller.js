@@ -112,23 +112,7 @@
             // Do logout here..
             console.log($http.defaults.headers);
             auth.logOut();
-            // api.logout.delete({},
-            //     function(success) {
-            //         console.log(success);
-            //         $cookies.remove('access-token');
-            //         $cookies.remove('expiry');
-            //         $cookies.remove('uid');
-            //         $cookies.remove('token-type');
-            //         $cookies.remove('client');
-            //         $cookies.remove('user');
-            //         delete $http.defaults.headers['access-token'];
-            //         delete $http.defaults.headers.uid;
-            //         delete $http.defaults.headers.client;
-            //         $location.path('/e-commerce/products');
-            //     },
-            //     function(error) {
 
-            //     });
         }
 
         /**

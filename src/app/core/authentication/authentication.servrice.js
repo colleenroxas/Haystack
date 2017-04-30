@@ -24,7 +24,7 @@
                             $http.defaults.headers.client = head.client;
                             $cookies.put('user', user['email']);
                             // LOCATION changes to new person form
-                            $location.path('/e-commerce/products');
+                            $location.path('/register/new-user');
                         },
                         function(error) {
                             $log.error(error);

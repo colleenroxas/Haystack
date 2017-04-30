@@ -87,12 +87,11 @@
 
         <div class="profile-box groups md-whiteframe-1dp" layout="column">
             <header class="md-accent-bg" layout="row" layout-align="space-between center">
-                <div class="title" translate="PROFILE.JOINED_GROUPS">Joined Retailers</div>
+                <div class="title" translate="PROFILE.RETAILS_JOINED">Retail's Joined</div>
             </header>
 
             <div class="content">
-                <div class="group" ng-repeat="group in vm.about.groups" layout="row"
-                     layout-align="space-between center">
+                <div class="group" ng-repeat="group in vm.about.groups" layout="row" layout-align="space-between center">
                     <div layout="row" layout-align="start center">
                         <!-- <img ng-src="{{group.logo}}" class="logo" alt="{{group.name}}"/> -->
 
@@ -102,8 +101,7 @@
                             <div class="members">{{group.units}} units sold</div>
                         </div>
                     </div>
-                    <md-button class="md-icon-button" aria-label="more" translate
-                               translate-attr-aria-label="PROFILE.MORE">
+                    <md-button class="md-icon-button" aria-label="more" translate translate-attr-aria-label="PROFILE.MORE">
                         <md-icon md-font-icon="icon-dots-vertical"></md-icon>
                     </md-button>
                 </div>
