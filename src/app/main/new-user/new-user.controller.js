@@ -16,23 +16,26 @@
 
 
 
-
         function submitVerticalStepper() {
-            api.userIfo.save({
-                firstname: vm.verticalStepper.step1.firstname,
-                lastname: vm.verticalStepper.step1.lastname,
-                comapnyName: vm.verticalStepper.step2.companyName,
-                companyDetails: vm.verticalStepper.step3.compnayDescription,
-                address: [{ address1: vm.verticalStepper.step4.address }],
-                payment: {
-                    cardHolder: vm.verticalStepper.step5.cardHolder,
-                    cardNumber: vm.verticalStepper.step5.cardNumber,
-                    cc2: vm.verticalStepper.step5.cc2,
-                    expirationDate: vm.verticalStepper.step5.expirationDate
-                }
+            // api.userInfo.save({
+            //     firstname: vm.verticalStepper.step1.firstname,
+            //     lastname: vm.verticalStepper.step1.lastname,
+            //     comapnyName: vm.verticalStepper.step2.companyName,
+            //     companyDetails: vm.verticalStepper.step3.compnayDescription,
+            //     address: [{ address1: vm.verticalStepper.step4.address }],
+            //     payment: {
+            //         cardHolder: vm.verticalStepper.step5.cardHolder,
+            //         cardNumber: vm.verticalStepper.step5.cardNumber,
+            //         cc2: vm.verticalStepper.step5.cc2,
+            //         expirationDate: vm.verticalStepper.step5.expirationDate
+            //     },
+            //     retailer: vm.verticalStepper.step6.retailer,
+            //     manufacturer: vm.verticalStepper.step6.manufacturer
 
-            })
+            // })
         }
+
+
     }
 
 })();
